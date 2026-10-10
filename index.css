@@ -1,0 +1,56 @@
+.converter {
+  max-width: 420px;
+  margin: 60px auto;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  color: #f8fafc;
+  background: #172554;
+  border-radius: 20px;
+  box-shadow: 0 12px 35px #0002;
+}
+
+.converter h1 {
+  margin-bottom: 8px;
+  font-size: 28px;
+}
+
+.converter p {
+  color: #cbd5e1;
+}
+
+.converter label {
+  display: block;
+  margin: 18px 0 8px;
+  font-size: 14px;
+}
+
+.converter input,
+.converter select {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #475569;
+  border-radius: 10px;
+  background: #fff;
+  color: #172554;
+  font-size: 16px;
+}
+
+.currency-selectors {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.result {
+  margin-top: 25px;
+  padding: 18px;
+  background: #1e40af;
+  border-radius: 14px;
+  text-align: center;
+}
+
+.result h2 {
+  font-size: 26px;
+  overflow-wrap: anywhere;
+}
